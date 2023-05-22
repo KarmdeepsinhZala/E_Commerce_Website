@@ -40,6 +40,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import PageTwo from './PageTwo'
 import PageOne from './PageOne'
 import NotFound from './NotFound'
+import './App.css';
 
 
 const App = () => {
