@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #01c5fb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.divStyle {
+  height: 150px;
+  width: 200px;
+  /* display: flex; */
+margin: 25px;
+  background-color: rgba(80, 67, 90, 0.9);
+}
+
+.buttonStyle{
+  margin-top: 20px;
+}
+
+.NamePlate{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1rem;
+}
+.MContainer{
+  /* border: 0.5px solid black; */
+  padding: 2rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  row-gap: 10px;
+  margin:auto;
+  margin-top: 10vh;
+  box-shadow: 0px 5px 10px 10px rgb(232, 232, 232);
+}
+.error{
+  color:red;
+}
+
+#heading{
+  /* border: 1px solid black; */
+  margin: autos;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.GridContainer{
+  /* border: 1px solid red; */
+  display: grid;
+  grid-column-end: span;
+  grid-template-columns: auto auto;
+  row-gap: 5vh;
+  column-gap: 5%;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.itemContainer{
+  /* border: 1px solid black; */
+  width: 30vw;
+  font-size: 15px;
+  /* height: 70px; */
+
+}
+
+/* #uploadButton{
+
+} */
